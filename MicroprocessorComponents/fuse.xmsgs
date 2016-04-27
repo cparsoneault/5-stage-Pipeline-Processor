@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 30: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 31: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 32: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 33: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 34: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 35: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 36: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 37: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 38: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 39: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 40: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 41: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 42: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 43: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 44: Parameter declaration becomes local in <arg fmt="%s" index="1">MainDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 296: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 297: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 298: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 299: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 300: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 301: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 302: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 306: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 307: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 308: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 309: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 310: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 311: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 312: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 313: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 314: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 315: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 316: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 317: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 318: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 322: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 323: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 324: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 325: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 326: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 327: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 328: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 329: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 330: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 331: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 332: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/Controller.v" Line 333: Parameter declaration becomes local in <arg fmt="%s" index="1">ALUDecoder</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 10: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 11: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 12: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 13: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 14: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 15: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 16: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 18: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 19: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 20: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 21: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/PC/Desktop/Homework 4_2/MicroprocessorComponents/ALU.v" Line 22: Parameter declaration becomes local in <arg fmt="%s" index="1">ALU</arg> with formal parameter declaration list
+</msg>
+
+</messages>
+

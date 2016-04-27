@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/ALU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/Adder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/Comparator.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/Controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/DataMemory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/HazardUnit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/Increment.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/InstructionMemory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/Mux.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/PipelineProcessor.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/ProgramCounter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/RegisterFile.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/SignExtend.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/aStack.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/counter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/mux3to1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chris/Documents/CompE 475/815730338_Parsoneault_FinalProject/MicroprocessorComponents/nbitEnReg.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

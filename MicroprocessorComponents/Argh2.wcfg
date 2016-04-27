@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Chris/Documents/CompE 475/Homework 4_2/MicroprocessorComponents/tb_Pipeline_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_Pipeline/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/wL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/stack1/din" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">StackIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/stack1/push" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">push</obj_property>
+      <obj_property name="ObjectShortName">push</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/stack1/pop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pop</obj_property>
+      <obj_property name="ObjectShortName">pop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/PC/dout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/stack1/dout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="label">StackOut</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/stack1/sp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sp[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/regFile/writeValue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeValue[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/regFile/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/regFile/addr3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr3[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/endDecodeStage/dout[0]" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">dout[0]</obj_property>
+      <obj_property name="label">RegWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/endExecuteStage/dout[0]" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">dout[0]</obj_property>
+      <obj_property name="label">RegWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Pipeline/m1/endMemStage/dout[0]" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">dout[0]</obj_property>
+      <obj_property name="label">RegWriteW</obj_property>
+   </wvobject>
+</wave_config>

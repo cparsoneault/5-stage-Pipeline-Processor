@@ -1,0 +1,638 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: tb_Pipeline.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tb_Pipeline.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tb_Pipeline"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : tb_Pipeline
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\SignExtend.v" into library work
+Parsing module <SignExtend>.
+Parsing module <tb_SignExtend>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\RegisterFile.v" into library work
+Parsing module <RegisterFile>.
+Parsing module <tb_RegFil>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ProgramCounter.v" into library work
+Parsing module <nbitReg>.
+Parsing module <tb_nbitReg>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\nbitEnReg.v" into library work
+Parsing module <nbitEnReg>.
+Parsing module <tb_nbitEnReg>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\mux3to1.v" into library work
+Parsing module <Mux3to1>.
+Parsing module <tb_mux3to1>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Mux.v" into library work
+Parsing module <Mux>.
+Parsing module <tb_mux>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\InstructionMemory.v" into library work
+Parsing module <InstructionMemory>.
+Parsing module <tb_InstructionMemory>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\HazardUnit.v" into library work
+Parsing module <HazardUnit>.
+Parsing module <tb_HazardUnit>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\DataMemory.v" into library work
+Parsing module <DataMemory>.
+Parsing module <tb_dMem>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\counter.v" into library work
+Parsing module <counter>.
+Parsing module <tb_counter>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" into library work
+Parsing module <Controller>.
+Parsing module <MainDecoder>.
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 30. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 31. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 32. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 33. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 34. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 35. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 36. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 37. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 38. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 39. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 40. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 41. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 42. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 43. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 44. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+Parsing module <ALUDecoder>.
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 296. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 297. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 298. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 299. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 300. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 301. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 302. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 306. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 307. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 308. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 309. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 310. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 311. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 312. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 313. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 314. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 315. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 316. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 317. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 318. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 322. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 323. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 324. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 325. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 326. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 327. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 328. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 329. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 330. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 331. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 332. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v" Line 333. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+Parsing module <tb_Controller>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Comparator.v" into library work
+Parsing module <Comparator>.
+Parsing module <tb_Comparator>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\aStack.v" into library work
+Parsing module <aStack>.
+Parsing module <tb_aStack>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" into library work
+Parsing module <ALU>.
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 10. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 11. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 12. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 13. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 14. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 15. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 16. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 18. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 19. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 20. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 21. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\ALU.v" Line 22. parameter declaration becomes local in ALU with formal parameter declaration list
+Parsing module <tb_ALU>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Adder.v" into library work
+Parsing module <adder>.
+Parsing module <tb_adder>.
+Analyzing Verilog file "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" into library work
+Parsing module <PipelineProcessor>.
+Parsing module <tb_Pipeline>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <tb_Pipeline>.
+WARNING:HDLCompiler:872 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" Line 256: Using initial value of rst since it is never assigned
+
+Elaborating module <PipelineProcessor(width=32,wordLength=32)>.
+
+Elaborating module <Mux(width=32)>.
+
+Elaborating module <nbitEnReg(width=32)>.
+
+Elaborating module <InstructionMemory(width=32,wordLength=32)>.
+Reading initialization file \"MatrixMult2.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\InstructionMemory.v" Line 13: Signal <instructionMem> in initial block is partially initialized.
+
+Elaborating module <counter(width=32)>.
+
+Elaborating module <Mux(width=1)>.
+
+Elaborating module <nbitEnReg(width=64)>.
+
+Elaborating module <Controller>.
+
+Elaborating module <MainDecoder(opWidth=6,ALUOpWidth=4)>.
+
+Elaborating module <ALUDecoder(opWidth=6,ALUOpWidth=4)>.
+
+Elaborating module <Comparator(width=32)>.
+
+Elaborating module <RegisterFile(width=32,wordLength=32)>.
+Reading initialization file \"rFile.txt\".
+
+Elaborating module <SignExtend(in=16,out=32)>.
+
+Elaborating module <adder(width=32)>.
+WARNING:HDLCompiler:1127 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" Line 121: Assignment to PCBranchD2 ignored, since the identifier is never used
+
+Elaborating module <nbitEnReg(width=123)>.
+
+Elaborating module <Mux3to1(width=32)>.
+
+Elaborating module <ALU(width=32)>.
+
+Elaborating module <Mux(width=5)>.
+
+Elaborating module <nbitReg(width=74)>.
+
+Elaborating module <DataMemory(width=48,wordLength=32)>.
+Reading initialization file \"dMem.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\DataMemory.v" Line 13: Signal <dataMem> in initial block is partially initialized.
+
+Elaborating module <aStack(width=32,wordLength=32)>.
+WARNING:HDLCompiler:413 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\aStack.v" Line 24: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\aStack.v" Line 30: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\aStack.v" Line 41: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\aStack.v" Line 42: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <nbitReg(width=71)>.
+
+Elaborating module <HazardUnit(width=32,wordLength=32)>.
+WARNING:HDLCompiler:1127 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" Line 238: Assignment to ForwardAD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" Line 250: Assignment to empty ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" Line 251: Assignment to sp ignored, since the identifier is never used
+WARNING:Xst:2972 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" line 118. All outputs of instance <JrPcPlusOneMux> of block <Mux> are unconnected in block <PipelineProcessor>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" line 249. All outputs of instance <m1> of block <PipelineProcessor> are unconnected in block <tb_Pipeline>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <tb_Pipeline>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v".
+        w = 32
+        wL = 32
+INFO:Xst:3210 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" line 249: Output port <sp> of the instance <m1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" line 249: Output port <full> of the instance <m1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" line 249: Output port <empty> of the instance <m1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\PipelineProcessor.v" line 249: Output port <error> of the instance <m1> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <tb_Pipeline> synthesized.
+
+Synthesizing Unit <Mux_1>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Mux.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <Mux_1> synthesized.
+
+Synthesizing Unit <nbitEnReg_1>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\nbitEnReg.v".
+        width = 32
+    Found 1-bit register for signal <dout<31>>.
+    Found 1-bit register for signal <dout<30>>.
+    Found 1-bit register for signal <dout<29>>.
+    Found 1-bit register for signal <dout<28>>.
+    Found 1-bit register for signal <dout<27>>.
+    Found 1-bit register for signal <dout<26>>.
+    Found 1-bit register for signal <dout<25>>.
+    Found 1-bit register for signal <dout<24>>.
+    Found 1-bit register for signal <dout<23>>.
+    Found 1-bit register for signal <dout<22>>.
+    Found 1-bit register for signal <dout<21>>.
+    Found 1-bit register for signal <dout<20>>.
+    Found 1-bit register for signal <dout<19>>.
+    Found 1-bit register for signal <dout<18>>.
+    Found 1-bit register for signal <dout<17>>.
+    Found 1-bit register for signal <dout<16>>.
+    Found 1-bit register for signal <dout<15>>.
+    Found 1-bit register for signal <dout<14>>.
+    Found 1-bit register for signal <dout<13>>.
+    Found 1-bit register for signal <dout<12>>.
+    Found 1-bit register for signal <dout<11>>.
+    Found 1-bit register for signal <dout<10>>.
+    Found 1-bit register for signal <dout<9>>.
+    Found 1-bit register for signal <dout<8>>.
+    Found 1-bit register for signal <dout<7>>.
+    Found 1-bit register for signal <dout<6>>.
+    Found 1-bit register for signal <dout<5>>.
+    Found 1-bit register for signal <dout<4>>.
+    Found 1-bit register for signal <dout<3>>.
+    Found 1-bit register for signal <dout<2>>.
+    Found 1-bit register for signal <dout<1>>.
+    Found 1-bit register for signal <dout<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <nbitEnReg_1> synthesized.
+
+Synthesizing Unit <InstructionMemory>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\InstructionMemory.v".
+        width = 32
+        wordLength = 32
+WARNING:Xst:2999 - Signal 'instructionMem', unconnected in block 'InstructionMemory', is tied to its initial value.
+    Found 32x32-bit single-port Read Only RAM <Mram_instructionMem> for signal <instructionMem>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <InstructionMemory> synthesized.
+
+Synthesizing Unit <counter>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\counter.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <counter> synthesized.
+
+Synthesizing Unit <Mux_2>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Mux.v".
+        width = 1
+    Summary:
+	no macro.
+Unit <Mux_2> synthesized.
+
+Synthesizing Unit <nbitEnReg_2>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\nbitEnReg.v".
+        width = 64
+    Found 1-bit register for signal <dout<63>>.
+    Found 1-bit register for signal <dout<62>>.
+    Found 1-bit register for signal <dout<61>>.
+    Found 1-bit register for signal <dout<60>>.
+    Found 1-bit register for signal <dout<59>>.
+    Found 1-bit register for signal <dout<58>>.
+    Found 1-bit register for signal <dout<57>>.
+    Found 1-bit register for signal <dout<56>>.
+    Found 1-bit register for signal <dout<55>>.
+    Found 1-bit register for signal <dout<54>>.
+    Found 1-bit register for signal <dout<53>>.
+    Found 1-bit register for signal <dout<52>>.
+    Found 1-bit register for signal <dout<51>>.
+    Found 1-bit register for signal <dout<50>>.
+    Found 1-bit register for signal <dout<49>>.
+    Found 1-bit register for signal <dout<48>>.
+    Found 1-bit register for signal <dout<47>>.
+    Found 1-bit register for signal <dout<46>>.
+    Found 1-bit register for signal <dout<45>>.
+    Found 1-bit register for signal <dout<44>>.
+    Found 1-bit register for signal <dout<43>>.
+    Found 1-bit register for signal <dout<42>>.
+    Found 1-bit register for signal <dout<41>>.
+    Found 1-bit register for signal <dout<40>>.
+    Found 1-bit register for signal <dout<39>>.
+    Found 1-bit register for signal <dout<38>>.
+    Found 1-bit register for signal <dout<37>>.
+    Found 1-bit register for signal <dout<36>>.
+    Found 1-bit register for signal <dout<35>>.
+    Found 1-bit register for signal <dout<34>>.
+    Found 1-bit register for signal <dout<33>>.
+    Found 1-bit register for signal <dout<32>>.
+    Found 1-bit register for signal <dout<31>>.
+    Found 1-bit register for signal <dout<30>>.
+    Found 1-bit register for signal <dout<29>>.
+    Found 1-bit register for signal <dout<28>>.
+    Found 1-bit register for signal <dout<27>>.
+    Found 1-bit register for signal <dout<26>>.
+    Found 1-bit register for signal <dout<25>>.
+    Found 1-bit register for signal <dout<24>>.
+    Found 1-bit register for signal <dout<23>>.
+    Found 1-bit register for signal <dout<22>>.
+    Found 1-bit register for signal <dout<21>>.
+    Found 1-bit register for signal <dout<20>>.
+    Found 1-bit register for signal <dout<19>>.
+    Found 1-bit register for signal <dout<18>>.
+    Found 1-bit register for signal <dout<17>>.
+    Found 1-bit register for signal <dout<16>>.
+    Found 1-bit register for signal <dout<15>>.
+    Found 1-bit register for signal <dout<14>>.
+    Found 1-bit register for signal <dout<13>>.
+    Found 1-bit register for signal <dout<12>>.
+    Found 1-bit register for signal <dout<11>>.
+    Found 1-bit register for signal <dout<10>>.
+    Found 1-bit register for signal <dout<9>>.
+    Found 1-bit register for signal <dout<8>>.
+    Found 1-bit register for signal <dout<7>>.
+    Found 1-bit register for signal <dout<6>>.
+    Found 1-bit register for signal <dout<5>>.
+    Found 1-bit register for signal <dout<4>>.
+    Found 1-bit register for signal <dout<3>>.
+    Found 1-bit register for signal <dout<2>>.
+    Found 1-bit register for signal <dout<1>>.
+    Found 1-bit register for signal <dout<0>>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <nbitEnReg_2> synthesized.
+
+Synthesizing Unit <Controller>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v".
+        codeWidth = 6
+        MainDecodeOut = 12
+    Summary:
+	no macro.
+Unit <Controller> synthesized.
+
+Synthesizing Unit <MainDecoder>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v".
+        opWidth = 6
+        ALUOpWidth = 4
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUOp<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUOp<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUOp<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUSrc>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUOp<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   5 Latch(s).
+Unit <MainDecoder> synthesized.
+
+Synthesizing Unit <ALUDecoder>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Controller.v".
+        opWidth = 6
+        ALUOpWidth = 4
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <ALUDecoder> synthesized.
+
+Synthesizing Unit <Comparator>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Comparator.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <Comparator> synthesized.
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\RegisterFile.v".
+        width = 32
+        wordLength = 32
+    Summary:
+	no macro.
+Unit <RegisterFile> synthesized.
+
+Synthesizing Unit <SignExtend>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\SignExtend.v".
+        in = 16
+        out = 32
+    Summary:
+	no macro.
+Unit <SignExtend> synthesized.
+
+Synthesizing Unit <adder>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\Adder.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <adder> synthesized.
+
+Synthesizing Unit <nbitEnReg_3>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\nbitEnReg.v".
+        width = 123
+    Found 1-bit register for signal <dout<122>>.
+    Found 1-bit register for signal <dout<121>>.
+    Found 1-bit register for signal <dout<120>>.
+    Found 1-bit register for signal <dout<119>>.
+    Found 1-bit register for signal <dout<118>>.
+    Found 1-bit register for signal <dout<117>>.
+    Found 1-bit register for signal <dout<116>>.
+    Found 1-bit register for signal <dout<115>>.
+    Found 1-bit register for signal <dout<114>>.
+    Found 1-bit register for signal <dout<113>>.
+    Found 1-bit register for signal <dout<112>>.
+    Found 1-bit register for signal <dout<111>>.
+    Found 1-bit register for signal <dout<110>>.
+    Found 1-bit register for signal <dout<109>>.
+    Found 1-bit register for signal <dout<108>>.
+    Found 1-bit register for signal <dout<107>>.
+    Found 1-bit register for signal <dout<106>>.
+    Found 1-bit register for signal <dout<105>>.
+    Found 1-bit register for signal <dout<104>>.
+    Found 1-bit register for signal <dout<103>>.
+    Found 1-bit register for signal <dout<102>>.
+    Found 1-bit register for signal <dout<101>>.
+    Found 1-bit register for signal <dout<100>>.
+    Found 1-bit register for signal <dout<99>>.
+    Found 1-bit register for signal <dout<98>>.
+    Found 1-bit register for signal <dout<97>>.
+    Found 1-bit register for signal <dout<96>>.
+    Found 1-bit register for signal <dout<95>>.
+    Found 1-bit register for signal <dout<94>>.
+    Found 1-bit register for signal <dout<93>>.
+    Found 1-bit register for signal <dout<92>>.
+    Found 1-bit register for signal <dout<91>>.
+    Found 1-bit register for signal <dout<90>>.
+    Found 1-bit register for signal <dout<89>>.
+    Found 1-bit register for signal <dout<88>>.
+    Found 1-bit register for signal <dout<87>>.
+    Found 1-bit register for signal <dout<86>>.
+    Found 1-bit register for signal <dout<85>>.
+    Found 1-bit register for signal <dout<84>>.
+    Found 1-bit register for signal <dout<83>>.
+    Found 1-bit register for signal <dout<82>>.
+    Found 1-bit register for signal <dout<81>>.
+    Found 1-bit register for signal <dout<80>>.
+    Found 1-bit register for signal <dout<79>>.
+    Found 1-bit register for signal <dout<78>>.
+    Found 1-bit register for signal <dout<77>>.
+    Found 1-bit register for signal <dout<76>>.
+    Found 1-bit register for signal <dout<75>>.
+    Found 1-bit register for signal <dout<74>>.
+    Found 1-bit register for signal <dout<73>>.
+    Found 1-bit register for signal <dout<72>>.
+    Found 1-bit register for signal <dout<71>>.
+    Found 1-bit register for signal <dout<70>>.
+    Found 1-bit register for signal <dout<69>>.
+    Found 1-bit register for signal <dout<68>>.
+    Found 1-bit register for signal <dout<67>>.
+    Found 1-bit register for signal <dout<66>>.
+    Found 1-bit register for signal <dout<65>>.
+    Found 1-bit register for signal <dout<64>>.
+    Found 1-bit register for signal <dout<63>>.
+    Found 1-bit register for signal <dout<62>>.
+    Found 1-bit register for signal <dout<61>>.
+    Found 1-bit register for signal <dout<60>>.
+    Found 1-bit register for signal <dout<59>>.
+    Found 1-bit register for signal <dout<58>>.
+    Found 1-bit register for signal <dout<57>>.
+    Found 1-bit register for signal <dout<56>>.
+    Found 1-bit register for signal <dout<55>>.
+    Found 1-bit register for signal <dout<54>>.
+    Found 1-bit register for signal <dout<53>>.
+    Found 1-bit register for signal <dout<52>>.
+    Found 1-bit register for signal <dout<51>>.
+    Found 1-bit register for signal <dout<50>>.
+    Found 1-bit register for signal <dout<49>>.
+    Found 1-bit register for signal <dout<48>>.
+    Found 1-bit register for signal <dout<47>>.
+    Found 1-bit register for signal <dout<46>>.
+    Found 1-bit register for signal <dout<45>>.
+    Found 1-bit register for signal <dout<44>>.
+    Found 1-bit register for signal <dout<43>>.
+    Found 1-bit register for signal <dout<42>>.
+    Found 1-bit register for signal <dout<41>>.
+    Found 1-bit register for signal <dout<40>>.
+    Found 1-bit register for signal <dout<39>>.
+    Found 1-bit register for signal <dout<38>>.
+    Found 1-bit register for signal <dout<37>>.
+    Found 1-bit register for signal <dout<36>>.
+    Found 1-bit register for signal <dout<35>>.
+    Found 1-bit register for signal <dout<34>>.
+    Found 1-bit register for signal <dout<33>>.
+    Found 1-bit register for signal <dout<32>>.
+    Found 1-bit register for signal <dout<31>>.
+    Found 1-bit register for signal <dout<30>>.
+    Found 1-bit register for signal <dout<29>>.
+    Found 1-bit register for signal <dout<28>>.
+    Found 1-bit register for signal <dout<27>>.
+    Found 1-bit register for signal <dout<26>>.
+    Found 1-bit register for signal <dout<25>>.
+    Found 1-bit register for signal <dout<24>>.
+    Found 1-bit register for signal <dout<23>>.
+    Found 1-bit register for signal <dout<22>>.
+    Found 1-bit register for signal <dout<21>>.
+    Found 1-bit register for signal <dout<20>>.
+    Found 1-bit register for signal <dout<19>>.
+    Found 1-bit register for signal <dout<18>>.
+    Found 1-bit register for signal <dout<17>>.
+    Found 1-bit register for signal <dout<16>>.
+    Found 1-bit register for signal <dout<15>>.
+    Found 1-bit register for signal <dout<14>>.
+    Found 1-bit register for signal <dout<13>>.
+    Found 1-bit register for signal <dout<12>>.
+    Found 1-bit register for signal <dout<11>>.
+    Found 1-bit register for signal <dout<10>>.
+    Found 1-bit register for signal <dout<9>>.
+    Found 1-bit register for signal <dout<8>>.
+    Found 1-bit register for signal <dout<7>>.
+    Found 1-bit register for signal <dout<6>>.
+    Found 1-bit register for signal <dout<5>>.
+    Found 1-bit register for signal <dout<4>>.
+    Found 1-bit register for signal <dout<3>>.
+    Found 1-bit register for signal <dout<2>>.
+    Found 1-bit register for signal <dout<1>>.
+    Found 1-bit register for signal <dout<0>>.
+    Summary:
+	inferred 123 D-type flip-flop(s).
+Unit <nbitEnReg_3> synthesized.
+
+Synthesizing Unit <Mux3to1>.
+    Related source file is "C:\Users\PC\Desktop\Homework 4_2\MicroprocessorComponents\mux3to1.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <Mux3to1> synthesized.
+INTERNAL_ERROR:Xst:cmain.c:3423:1.29 -  Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.  
